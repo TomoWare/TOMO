@@ -1,121 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset=utf-8>
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<title>How data is transfered・TOMO</title>
-		<link rel="stylesheet" href="css/main.css">
-		<script src="js/main.js"></script>
-		<script src="js/mobile.js"></script>
-		<style>
-			.centerText{
-				text-align: center;
-			}
-			.alertText{
-				color: red;
-				text-align: center;
-			}
-			.blueText{
-				color: #1F45FC;
-				text-align: center;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="home" data-role="page">
-			<div data-role="header">
-				<h1 class="centerText">TOMO</h1>
-			</div>
-			<h1 class="centerText">How data should be sent</h1>
-			<h2 class="centerText">Millions of people use <strong>TOMO</strong> to transfer a group of data with less then a <strong>Megabyte</strong>.</h2>
-			<form action="#sign_in">
-				<input type="submit" value="Sign In">
-				<a class="centerText" href="#sign_in" data-transition="fade">Click here if the button is not working.</a>
-			</form>
-			<form action="#sign_up">
-				<input type="submit" value="Sign Up">
-				<a class="centerText" href="#sign_up" data-transition="fade">Click here if the button is not working.</a>
-			</form>
-			<hr>
-			<h4 class="blueText">A whole new Torrent.</h4>
-			<h5 class="centerText">Send more than 50 files with only a couple of Kilobites. Learn more about how it works <a href="#about" data-transition="fade">here</a>.</h5>
-			<hr>
-			<h2 class="centerText">Welcome to the Portal!</h2>
-			<h3 class="centerText">For everything you build and love</h3>
-			<p class="centerText"><strong>From hobbyists to professionals, TOMO helps you lighten up your files and compatibility.</strong></p>
-			<hr>
-			<h1 class="centerText">Who uses TOMO?</h1>
-			<h3 class="centerText"><a href="#personal" data-transition="fade">Indivisuals <strong>></strong></a></h3>
-			<h4 class="centerText">Send your light-weight files to your self with email to save what you love on multi-platforms.</h4>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-			<h3 class="centerText"><a href="#group" data-transition="fade">Community <strong>></strong></a></h3>
-			<h4 class="centerText">Share what you love by simply creating a group to share with.</h4>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-			<h3 class="centerText"><a href="#companies" data-transition="fade">Businesses <strong>></strong></a></h3>
-			<h4 class="centerText">Send your files fast and safe with our multi-security torrent.</h4>
-		</div>
-		
-		<div data-role="page" id="about">
-			<div data-role="header">
-				<h1>About</h1>
-			</div>
-			<h1 class="centerText">Torrent Of Massive Oblivion = <strong>TOMO</strong></h1>
-			<hr>
-			<h1 class="centerText">TOMO is how people send files the lightest.</h1>
-			<h3 class="centerText">We're messengers of more than 1000 people</h3>
-			<h3 class="centerText">create, and share there file lightly.</h3>
-			<hr>
-			<p class="centerText">We’re working hard to build a supportive, welcoming place for users would love.</p>
-			<hr>
-			<form action="#home">
-				<input type="submit" value="Home">
-			</form>
-			<form action="https://twitter.com/TomoYoshi_Yama">
-				<input type="submit" value="Follow the Creator on Twitter">
-			</form>
-		</div>
-		<div data-role="page" id="personal">
-			<div data-role="header">
-				<h1>Personal</h1>
-			</div>
-			<h2 class="centerText">Send Anything</h2>
-			<h3 class="centerText">TOMO is a portal to all kinds of software files, from simple files to today’s most popular movies and softwares.</h3>
-			<form action="#sign_up">
-				<input type="submit" value="Sign Up for TOMO">
-			</form>
-			<hr>
-			<h4 class="blueText">A whole new Torrent.</h4>
-			<h5 class="centerText">Send more than 50 files with only a couple of Kilobites. Learn more about how it works <a href="#about" data-transition="fade">here</a>.</h5>
-			<hr>
-			<h2 class="centerText">Welcome to the Portal!</h2>
-			<h3 class="centerText">For everything you build and love</h3>
-			<p class="centerText"><strong>From hobbyists to professionals, TOMO helps you lighten up your files and compatibility.</strong></p>
-			<hr>
-			<h2 class="centerText">Hello New Device!</h2>
-			<h3 class="centerText">Say "Hello" to a new device with only a couple of Kilobytes! Send any files up to over 50, with only a couple of Kilobytes.</h3>
-			<hr>
-			<h3 class="centerText">Share your work with the WORLD.</h3>
-			<h4 class="centerText">Share your files with your friends or the world for improvements.</h4>
-			<hr>
-			<h1 class="centerText">Choose Your Plan</h1>
-			<hr>
-			<h2 class="centerText">Normal</h2>
-			<h1 class="centerText">Free</h1>
-			<h3 class="centerText">A plan with all features that you'll need on sending over 50 files at once. Unlimited number of files.</h3>
-			<form action="#sign_up">
-				<input type="submit" value="Choose Plan">
-			</form>
-			<hr>
-			<h2 class="centerText">Private</h2>
-			<h1 class="centerText">Free/For Now</h1>
-			<h3 class="centerText">A plan with an extra security. Send over 50 work files at once encrypted from others.</h3>
-			<p class="alertText">Remember that this plan is not pernament. We are planning to change it on 10/7/16.</p>
-			<form action="#sign_up">
-				<input type="submit" value="Choose Plan">
-			</form>
-			<hr>
-		</div>
-	</body>
+    <title>TOMO by TomoWare</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>TOMO</h1>
+        <h2>Send over 50 things you love with less then 15 Kilobytes with this new Torrent Of Massive Oblivion, TOMO.</h2>
+        <a href="https://github.com/TomoWare/tomo" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="in-maintenance" class="anchor" href="#in-maintenance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>In Maintenance...</h1>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/TomoWare/tomo/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/TomoWare/tomo/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/TomoWare/tomo"></a> is maintained by <a href="https://github.com/TomoWare">TomoWare</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
 </html>
